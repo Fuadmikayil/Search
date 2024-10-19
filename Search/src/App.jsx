@@ -70,6 +70,11 @@ const App = () => {
         type="number"
         placeholder='Age...'
       />
+      <input
+        onChange={inputChangeWorking}
+        type="text"
+        placeholder='Working...'
+      />
       <section className="demo">
         <div className="calculator-wrapper">
 
